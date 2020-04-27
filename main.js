@@ -24,11 +24,11 @@ imagem.onclick = function(){
 
 	let caminho = imagem.getAttribute('src');
 
-	if(caminho === 'Imagens/space-x-rocket.jpg') {
-		imagem.setAttribute('src','Imagens/Tesla.png');
+	if(caminho === 'adriferoli.github.io/space-x-rocket.jpg') {
+		imagem.setAttribute('src','adriferoli.github.io/Tesla.png');
 		cabecalho.textContent = 'Tesla no trânsito';
 	}else{
-		imagem.setAttribute('src','Imagens/space-x-rocket.jpg');
+		imagem.setAttribute('src','adriferoli.github.io/space-x-rocket.jpg');
 		cabecalho.textContent ='Space-x saindo da terra.';
 	}
 }
